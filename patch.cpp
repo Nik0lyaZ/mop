@@ -178,7 +178,7 @@ int Patch(unsigned n, bool visual) {
                 Write((int[]){0x19B2A8, 0x19B3F4, 0x1DE48C, 0x1DE484, 0x1DE7F8}[ver - 14], (obj <= 0 ? NOP : BLE));
                 if(obj) --obj;
                 Write((int[]){0x19C806, 0x19C9AA, 0x1DDAB6, 0x1DDAAE, 0x1DDE22}[ver - 14], Mov);
-                Write((int[]){0x19B2A2, 0x19B3EE, 0x1DE486, 0x1DE47E}[ver - 14], Mov);
+                Write((int[]){0x19B2A2, 0x19B3EE, 0x1DE486, 0x1DE47E, 0x1DE7F2}[ver - 14], Mov);
             }
             break;
         case 2:
