@@ -71,7 +71,7 @@ int main()
                         bool type;
                         cout << "0 - use " << Approx(0) << ", 1 - use " << Approx(1) << '\n';
                         cin >> type;
-                        cout << "In some cases the game may round the object limit (e.g., 516 -> 512, 4992 -> 5000).\nDo you want to use approximations in the object counter and popup as well? (0-1)\n";
+                        cout << "Do you want to use approximations in the object counter and popup as well? (0-1)\n";
                         cin >> visual;
                         approx = Approx(type);
                     }
