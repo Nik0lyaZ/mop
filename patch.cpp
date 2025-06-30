@@ -150,10 +150,9 @@ int Patch(unsigned n, bool visual) {
                 if(!CheckApprox(n)) return 2;
                 Write((int[]){0x166130}[ver - 13], Mov); // Counter
                 Write((int[]){0x14E2C2}[ver - 13], Mov); // Popup
-                Write((int[]){0x150050}[ver - 13], (obj <= 0 ? NOP : (string){0x2, (char)0xDD}));
+                Write((int[]){0x150050}[ver - 13], (obj <= 0 ? NOP : (string){0x2, (char)0xDB}));
                 Write((int[]){0x14E982}[ver - 13], (obj <= 0 ? NOP : (string){char(0xEB), (char)0xDB}));
                 obj = n; // The use of approximation
-                if(obj) --obj;
                 Write((int[]){0x15004A}[ver - 13], Cmp); // Create
                 Write((int[]){0x14E97E}[ver - 13], Cmp); // Duplicate
             } else { // 1.7 and newer
