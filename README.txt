@@ -1,4 +1,4 @@
-### Max object patcher 1.811 ### (ver 7)
+### Max object patcher 1.811 ### (ver 8)
 1. Extract Geometry Dash apk with WinRAR, 7-zip or your APK tool
 2. Put mop executable in the game files and run it
 3. Choose the game version by typing 1.0, 1.01, 1.02, etc.
@@ -17,10 +17,13 @@ Thanks for using mop :P
 - Share feedback with @nikolyas on Discord
 
 ### Changelog ###
+2025-06-30:
+- The object limit for 1.6 armeabi-v7a library uses proper values now!
+- Added .gitignore for future commits
+
 2025-06-21:
 - Added the missing 1.811 address to onDuplicate array for armeabi-v7a  
 
-### Changelog ###
 2024-10-25:
 - Minor fixes to 1.50-1.811 armeabi-v7a code
 - Wokring on mop_2! It currently supports versions up to 1.6
